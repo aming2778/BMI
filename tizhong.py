@@ -21,3 +21,5 @@ if st.button("开始计算"):
         st.success("您的身体很健康！")
     else:
         st.error("🐖")
+    if bmi > 30:
+          st.error("野猪王")
